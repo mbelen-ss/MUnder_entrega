@@ -58,7 +58,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(283, 173);
             label2.Name = "label2";
-            label2.Size = new Size(204, 15);
+            label2.Size = new Size(203, 15);
             label2.TabIndex = 1;
             label2.Text = "Tu red social de música underground";
             // 
@@ -112,6 +112,7 @@
             btnSocial.TabIndex = 3;
             btnSocial.Text = "Social";
             btnSocial.UseVisualStyleBackColor = true;
+            btnSocial.Click += btnSocial_Click;
             // 
             // btnMensaje
             // 
@@ -131,6 +132,7 @@
             btnSalir.Text = "Salir";
             btnSalir.UseMnemonic = false;
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // flowLayoutPanel2
             // 
@@ -146,7 +148,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(3, 0);
             label3.Name = "label3";
-            label3.Size = new Size(159, 15);
+            label3.Size = new Size(160, 15);
             label3.TabIndex = 0;
             label3.Text = "Explora música underground";
             // 

@@ -157,7 +157,7 @@
             btnVolver.TabIndex = 14;
             btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
-            btnVolver.Click += button2_Click;
+            btnVolver.Click += btnVolver_Click;
             // 
             // Registro
             // 

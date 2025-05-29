@@ -24,9 +24,11 @@ namespace MUnder
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
-            Application.Run(new Login());
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Close(); // Cerrar el formulario actual
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
@@ -38,6 +40,7 @@ namespace MUnder
                 Contrasena = txtContrasena.Text,
                 Telefono = int.Parse(txtTelefono.Text),
                 Rol = "Fan"
+                //Imagen = ""
             };
             var servicio = new UsuarioService();
             if (servicio.Registrar(usuario))

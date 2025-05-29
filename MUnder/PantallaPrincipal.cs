@@ -24,9 +24,19 @@ namespace MUnder
 
         private void btnPlayList_Click(object sender, EventArgs e)
         {
-            this.Hide();    
+            this.Hide();
             var playListForm = new PlayList();
-            playListForm .ShowDialog();
+            playListForm.ShowDialog();
+        }
+
+        private void btnSocial_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

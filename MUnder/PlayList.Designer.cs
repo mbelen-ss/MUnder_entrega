@@ -309,6 +309,7 @@
             btnIndieFolkArg.TabIndex = 14;
             btnIndieFolkArg.Text = "Indie Folk Argentino";
             btnIndieFolkArg.UseVisualStyleBackColor = true;
+            btnIndieFolkArg.Click += btnIndieFolkArg_Click_1;
             // 
             // label13
             // 
@@ -355,6 +356,7 @@
             btnHipHopUnder.TabIndex = 15;
             btnHipHopUnder.Text = "Hip Hop Underground";
             btnHipHopUnder.UseVisualStyleBackColor = true;
+            btnHipHopUnder.Click += btnHipHopUnder_Click_1;
             // 
             // label17
             // 

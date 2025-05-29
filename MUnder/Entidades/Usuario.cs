@@ -14,6 +14,7 @@ namespace MUnder.Entidades
         public string Contrasena { get; set; }
         public int Telefono { get; set; }
         public string Rol { get; set; }
+        //public string Imagen { get; set; } 
         public List<Playlist> Playlists { get; set; } = new List<Playlist>();
     }
 }
